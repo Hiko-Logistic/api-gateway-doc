@@ -1,0 +1,12 @@
+version: '3.7'
+
+services:
+  api-docs:
+    container_name: api-docs
+    build:
+      context: .
+      dockerfile: .docker/${APP_ENV}/Dockerfile
+    volumes:
+      - ./:/api-docs
+    ports:
+      - '8881:8881'
