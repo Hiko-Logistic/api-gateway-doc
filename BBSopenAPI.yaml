@@ -60,7 +60,7 @@ tags:
     description: |-
       Show address with port codes.
 
-      You can download our address tree here: https://api-docs.Hiko.vn/assets/BBS_Address_12_2023.csv
+      You can download our address tree here: https://api-docs.Hiko.vn/assets/Address_12_2023.csv
   - name: WareHouse
     description: Create/Update warehouse
   - name: Webhooks
@@ -593,7 +593,7 @@ components:
           title: codes
           type: array
           description: The codes can be used as code or package_code
-          example: ["BBS0302660748","PKG2210897312"]
+          example: ["PKG0302660748","PKG2210897312"]
         type:
           title: type
           type: string
@@ -929,7 +929,7 @@ components:
           type: string
       example:
         code: "PKG2210897312"
-        package_code: "BBS10897312"
+        package_code: "PKG10897312"
         tracking_number: "LMP0170517004VNA"
         port_code: "HT-TRG-I"
         cod: 7000000
@@ -1054,7 +1054,7 @@ components:
           type: string
       example:
       - code: "PKG2210897312"
-        package_code: "BBS10897312"
+        package_code: "PKG10897312"
         tracking_number: "LMP0170517004VNA"
         cod: 7000000
         weight: 10
@@ -1081,7 +1081,7 @@ components:
         notes: "Hàng dễ vỡ, xin nhẹ tay"
         epod_pickup_success: "https://luatacc.com/wp-content/uploads/2022/02/chu-ky-la-gi.png"
       - code: "PKG2210897312"
-        package_code: "BBS10897312"
+        package_code: "PKG10897312"
         tracking_number: "LMP0170517004VNA"
         cod: 7000000
         weight: 10
