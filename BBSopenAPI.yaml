@@ -25,10 +25,10 @@ info:
 
     ## Base URL by environment
       ### Production base URL
-      * URL: `https://{parter-code}-gateway.Hiko.vn`
+      * URL: `https://{parter-code}-gateway.hikolog.vn`
 
       ### Staging base URL
-      * URL: `https://stg-{parter-code}-gateway.Hiko.vn`
+      * URL: `https://stg-{parter-code}-gateway.hikolog.vn`
 
       **Note:** {parter-code} will be received via contract or integration directly
 
@@ -44,8 +44,8 @@ tags:
       ### Prerequisites
 
       To make requests to this endpoint, you need to have the Email and Password. You can obtain by registration new account here:
-      1. Production: shop.Hiko.vn
-      2. Staging: stg-shop.Hiko.vn
+      1. Production: shop.hikolog.vn
+      2. Staging: stg-shop.hikolog.vn
 
       ### Implementation flow
 
@@ -115,9 +115,9 @@ tags:
           }
 
 servers:
-  - url: //{partner-code}-gateway.Hiko.vn/api/
+  - url: //{partner-code}-gateway.hikolog.vn/api/
     description: Production server
-  - url: //stg-{partner-code}-gateway.Hiko.vn/api/
+  - url: //stg-{partner-code}-gateway.hikolog.vn/api/
     description: Staging server
 
 paths:
