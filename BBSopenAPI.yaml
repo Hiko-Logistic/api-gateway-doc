@@ -60,7 +60,7 @@ tags:
     description: |-
       Show address with port codes.
 
-      You can download our address tree here: https://api-docs.Hiko.vn/assets/Address_12_2023.csv
+      You can download our address tree here: https://hiko-logistic.github.io/api-gateway-doc/assets/Address_12_2023.csv
   - name: WareHouse
     description: Create/Update warehouse
   - name: Webhooks
