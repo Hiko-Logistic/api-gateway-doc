@@ -25,10 +25,10 @@ info:
 
     ## Base URL by environment
       ### Production base URL
-      * URL: `https://{parter-code}-gateway.hikolog.vn`
+      * URL: `https://{parter-code}.gateway.hikolog.vn`
 
       ### Staging base URL
-      * URL: `https://stg-{parter-code}-gateway.hikolog.vn`
+      * URL: `https://stg-{parter-code}.gateway.hikolog.vn`
 
       **Note:** {parter-code} will be received via contract or integration directly
 
