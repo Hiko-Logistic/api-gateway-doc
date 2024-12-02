@@ -115,9 +115,9 @@ tags:
           }
 
 servers:
-  - url: //{partner-code}-gateway.hikolog.vn/api/
+  - url: //{partner-code}.gateway.hikolog.vn/api/
     description: Production server
-  - url: //stg-{partner-code}-gateway.hikolog.vn/api/
+  - url: //{partner-code}.stg-gateway.hikolog.vn/api/
     description: Staging server
 
 paths:
