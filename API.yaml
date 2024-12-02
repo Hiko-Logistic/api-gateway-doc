@@ -44,8 +44,8 @@ tags:
       ### Prerequisites
 
       To make requests to this endpoint, you need to have the Email and Password. You can obtain by registration new account here:
-      1. Production: shop.hikolog.vn
-      2. Staging: stg-shop.hikolog.vn
+      1. Production: khachhang.hikolog.vn
+      2. Staging: stg-khachhang.hikolog.vn
 
       ### Implementation flow
 
